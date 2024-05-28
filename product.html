@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/fonts.css">
+  <link rel="stylesheet" href="./style/global.css">
+  <link rel="stylesheet" href="./style/media.css">
+  <link rel="stylesheet" href="./style/reset.css">
+</head>
+
+<body>
+  <!-- шапка -->
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <button class="search__btn" type="submit">
+          <img src="images/icons/search.svg" alt="site search">
+        </button>
+        <a class="logo" href="index.html">
+          <img class="logo__img" src="images/icons/logo.png" alt="logo site">
+        </a>
+        <div class="actions">
+          <a class="actions__shopping-cart" href="shopping_baskets.html">
+            <img src="images/icons/shopping--cart.svg" alt="shopping cart">
+          </a>
+          <button class="actions__account-btn" type="submit">
+            <img src="images/icons/user--avatar.svg" alt="account">
+          </button>
+        </div>
+        <button class="burger-menu">
+          <span></span>
+        </button>
+      </div>
+      <nav class="header__nav navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item off-link">
+            <a class="navigation__link" href="#">Plant pots</a>
+            
+          </li>
+          <li class="navigation__item off-link">
+            <a class="navigation__link" href="#">Ceramics</a>
+            
+          </li>
+          <li class="navigation__item off-link">
+            <a class="navigation__link" href="#">Tables</a>
+            
+          </li>
+          <li class="navigation__item off-link">
+            <a class="navigation__link" href="#">Chairs</a>
+            
+          </li>
+          <li class="navigation__item off-link">
+            <a class="navigation__link" href="#">Crockery</a>
+            
+          </li>
+          <li class="navigation__item off-link">
+            <a class="navigation__link" href="#">Tableware</a>
+            
+          </li>
+          <li class="navigation__item off-link">
+            <a class="navigation__link" href="#">Cutlery</a>
+            
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- -->
+  <!-- контент -->
+  <div class="wrapper">
+    <main class="main">
+      <section class="products">
+        <div class="container">
+          <div class="products__box-title">
+            <h1 class="products__title title">
+              All products
+            </h1>
+          </div>
+          <div class="filter">
+            <div class="filter-box">
+              <div class="filter-box__title">
+                <span>Category</span>
+                <button class="filter-box__btn">
+                  <img src="images/icons/caret--down.svg" alt="caret">
+                </button>
+              </div>
+              <div class="filter-list">
+                <div class="filter-list__box">
+                  <label>
+                    <input type="checkbox">
+                    Crockery
+                  </label>
+                </div>
+                <div class="filter-list__box">
+                  <label>
+                    <input type="checkbox">
+                    Furniture
+                  </label>
+                </div>
+                <div class="filter-list__box">
+                  <label>
+                    <input type="checkbox">
+                    Homeware
+                  </label>
+                </div>
+                <div class="filter-list__box">
+                  <label>
+                    <input type="checkbox">
+                    Plant pots
+                  </label>
+                </div>
+                <div class="filter-list__box">
+                  <label>
+                    <input type="checkbox">
+                    Chairs
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="filter-box">
+              <div class="filter-box__title">
+                <span>Price £</span>
+                <button class="filter-box__btn">
+                  <img src="images/icons/caret--down.svg" alt="caret">
+                </button>
+              </div>
+              <div class="filter-list">
+                <div class="filter-list__box">
+                  <label>
+                    <input type="checkbox">
+                    125-200
+                  </label>
+                </div>
+                <div class="filter-list__box">
+                  <label>
+                    <input type="checkbox">
+                    201-350
+                  </label>
+                </div>
+                <div class="filter-list__box">
+                  <label>
+                    <input type="checkbox">
+                    351-500
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="filter-box">
+              <div class="filter-box__title">
+                <span>Brand</span>
+                <button class="filter-box__btn">
+                  <img src="images/icons/caret--down.svg" alt="caret">
+                </button>
+              </div>
+              <div class="filter-list">
+                <div class="filter-list__box">
+                  <label>
+                    <input type="checkbox">
+                    Anvit
+                  </label>
+                </div>
+                <div class="filter-list__box">
+                  <label>
+                    <input type="checkbox">
+                    BNB
+                  </label>
+                </div>
+                <div class="filter-list__box">
+                  <label>
+                    <input type="checkbox">
+                    Blonski
+                  </label>
+                </div>
+                <div class="filter-list__box">
+                  <label>
+                    <input type="checkbox">
+                    Corners
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="small-container">
+          <div class="products__item">
+            <div class="box-collection">
+              <ul class="box-collection__items">
+                <li class="box-collection__item">
+                  <a class="box-collection__link" href="product_page.html" >
+                    <img class="box-collection__img" src="images/content/foto-2.jpg" alt="foto The Dandy chair">
+                  </a>
+                  <a class="box-collection__link" href="product_page.html" >
+                    <h4 class="box-collection__subject subject">
+                      The Dandy chair
+                    </h4>
+                  </a>
+                  <span class="box-collection__summ">
+                    £250
+                  </span>
+                </li>
+                <li class="box-collection__item">
+                  <a class="box-collection__link" href="#" >
+                    <img class="box-collection__img" src="images/content/foto-3.jpg" alt="foto Rustic Vase Set">
+                  </a>
+                  <a class="box-collection__link off-link" href="#" >
+                    <h4 class="box-collection__subject subject">
+                      Rustic Vase Set
+                    </h4>
+                    
+                  </a>
+                  <span class="box-collection__summ">
+                    £155
+                  </span>
+                </li>
+                <li class="box-collection__item">
+                  <a class="box-collection__link" href="#" >
+                    <img class="box-collection__img" src="images/content/foto-4.jpg" alt="foto The Silky Vase">
+                  </a>
+                  <a class="box-collection__link off-link" href="#" >
+                    <h4 class="box-collection__subject subject">
+                      The Silky Vase
+                    </h4>
+                    
+                  </a>
+                  <span class="box-collection__summ">
+                    £125
+                  </span>
+                </li>
+                <li class="box-collection__item">
+                  <a class="box-collection__link" href="#" >
+                    <img class="box-collection__img" src="images/content/foto-5.jpg" alt="foto The Lucy Lamp">
+                  </a>
+                  <a class="box-collection__link off-link" href="#" >
+                    <h4 class="box-collection__subject subject">
+                      The Lucy Lamp
+                    </h4>
+                    
+                  </a>
+                  <span class="box-collection__summ">
+                    £399
+                  </span>
+                </li>
+                <li class="box-collection__item">
+                  <a class="box-collection__link" href="#" >
+                    <img class="box-collection__img" src="images/content/foto-13.jpg" alt="foto The Dandy chair">
+                  </a>
+                  <a class="box-collection__link off-link" href="#" >
+                    <h4 class="box-collection__subject subject">
+                      The Dandy chair
+                    </h4>
+                    
+                  </a>
+                  <span class="box-collection__summ">
+                    £250
+                  </span>
+                </li>
+                <li class="box-collection__item">
+                  <a class="box-collection__link" href="#" >
+                    <img class="box-collection__img" src="images/content/foto-14.jpg" alt="foto Rustic Vase Set">
+                  </a>
+                  <a class="box-collection__link off-link" href="#" >
+                    <h4 class="box-collection__subject subject">
+                      Rustic Vase Set
+                    </h4>
+                    
+                  </a>
+                  <span class="box-collection__summ">
+                    £155
+                  </span>
+                </li>
+                <li class="box-collection__item">
+                  <a class="box-collection__link" href="#" >
+                    <img class="box-collection__img" src="images/content/foto-15.jpg" alt="foto The Silky Vase">
+                  </a>
+                  <a class="box-collection__link off-link" href="#" >
+                    <h4 class="box-collection__subject subject">
+                      The Silky Vase
+                    </h4>
+                    
+                  </a>
+                  <span class="box-collection__summ">
+                    £125
+                  </span>
+                </li>
+                <li class="box-collection__item">
+                  <a class="box-collection__link" href="#" >
+                    <img class="box-collection__img" src="images/content/foto-16.jpg" alt="foto The Lucy Lamp">
+                  </a>
+                  <a class="box-collection__link off-link" href="#" >
+                    <h4 class="box-collection__subject subject">
+                      The Lucy Lamp
+                    </h4>
+                    
+                  </a>
+                  <span class="box-collection__summ">
+                    £399
+                  </span>
+                </li>
+                <li class="box-collection__item">
+                  <a class="box-collection__link" href="product_page.html" >
+                    <img class="box-collection__img" src="images/content/foto-2.jpg" alt="foto The Dandy chair">
+                  </a>
+                  <a class="box-collection__link" href="product_page.html" >
+                    <h4 class="box-collection__subject subject">
+                      The Dandy chair
+                    </h4>
+                  </a>
+                  <span class="box-collection__summ">
+                    £250
+                  </span>
+                </li>
+                <li class="box-collection__item">
+                  <a class="box-collection__link" href="#" >
+                    <img class="box-collection__img" src="images/content/foto-3.jpg" alt="foto Rustic Vase Set">
+                  </a>
+                  <a class="box-collection__link off-link" href="#" >
+                    <h4 class="box-collection__subject subject">
+                      Rustic Vase Set
+                    </h4>
+                    
+                  </a>
+                  <span class="box-collection__summ">
+                    £155
+                  </span>
+                </li>
+                <li class="box-collection__item">
+                  <a class="box-collection__link" href="#" >
+                    <img class="box-collection__img" src="images/content/foto-4.jpg" alt="foto The Silky Vase">
+                  </a>
+                  <a class="box-collection__link off-link" href="#" >
+                    <h4 class="box-collection__subject subject">
+                      The Silky Vase
+                    </h4>
+                    
+                  </a>
+                  <span class="box-collection__summ">
+                    £125
+                  </span>
+                </li>
+                <li class="box-collection__item">
+                  <a class="box-collection__link" href="#" >
+                    <img class="box-collection__img" src="images/content/foto-5.jpg" alt="foto The Lucy Lamp">
+                  </a>
+                  <a class="box-collection__link off-link" href="#" >
+                    <h4 class="box-collection__subject subject">
+                      The Lucy Lamp
+                    </h4>
+                    
+                  </a>
+                  <span class="box-collection__summ">
+                    £399
+                  </span>
+                </li>
+              </ul> 
+              <a class="box-collection__btn transparent-btn-2 off-link" href="#">
+                View more
+                
+              </a>
+            </div>
+            <div class="pagination">
+              <ul class="pagination__list">
+                <li>
+                    <a class="pagination__arrow pagination__prev ">
+                        previous 
+                      </a>
+                </li>
+                <li class="pagination__item pagination__item--active">
+                  <a href="">1</a>
+                </li>
+                <li class="pagination__item off-link">
+                  <a href="">
+                    2
+                    
+                  </a>
+                </li>
+                <li class="pagination__item">
+                  <a href="">...</a>
+                </li>
+                <li class="pagination__item off-link">
+                  <a href="">
+                    5
+                    
+                  </a>
+                </li>
+                <li>
+                  <a class="pagination__arrow pagination__next off-link" href="">
+                    next 
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+
+
+
+    </main>
+    
+  </div>
+  <!-- -->
+  <!-- футер -->
+  <footer class="footer">
+    <div class="small-container">
+      <div class="footer__inner">
+        <div class="footer__links">
+          <div class="footer-menu">
+            <p class="footer-menu__title">
+              Menu
+            </p>
+            <ul class="footer-menu__list">
+              <li class="footer-menu__item off-link">
+                <a href="" class="footer-menu__link">New arrivals</a>
+                
+              </li>
+              <li class="footer-menu__item off-link">
+                <a href="" class="footer-menu__link">Best sellers</a>
+                
+              </li>
+              <li class="footer-menu__item off-link">
+                <a href="" class="footer-menu__link">Recently viewed</a>
+                
+              </li>
+              <li class="footer-menu__item off-link">
+                <a href="" class="footer-menu__link">Popular this week</a>
+                
+              </li>
+              <li class="footer-menu__item">
+                <a href="" class="footer-menu__link">All products</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-categories">
+            <p class="footer-categories__title">
+              Categories
+            </p>
+            <ul class="footer-categories__list">
+              <li class="footer-categories__item off-link">
+                <a href="" class="footer-categories__link">Crockery</a>
+                
+              </li>
+              <li class="footer-categories__item off-link">
+                <a href="" class="footer-categories__link">Furniture</a>
+                
+              </li>
+              <li class="footer-categories__item off-link">
+                <a href="" class="footer-categories__link">Homeware</a>
+                
+              </li>
+              <li class="footer-categories__item off-link">
+                <a href="" class="footer-categories__link">Plant pots</a>
+                
+              </li>
+              <li class="footer-categories__item off-link">
+                <a href="" class="footer-categories__link">Chairs</a>
+                
+              </li>
+              <li class="footer-categories__item off-link">
+                <a href="" class="footer-categories__link">Crockery</a>
+                
+              </li>
+            </ul>
+          </div>
+          <div class="footer-info">
+            <p class="footer-info__title">
+              Our company
+            </p>
+            <ul class="footer-info__list">
+              <li class="footer-info__item">
+                <a href="about.html" class="footer-info__link">About us</a>
+              </li>
+              <li class="footer-info__item off-link">
+                <a href="" class="footer-info__link">Vacancies</a>
+                
+              </li>
+              <li class="footer-info__item off-link">
+                <a href="" class="footer-info__link">Contact us</a>
+                
+              </li>
+              <li class="footer-info__item off-link">
+                <a href="" class="footer-info__link">Privacy</a>
+                
+              </li>
+              <li class="footer-info__item off-link">
+                <a href="" class="footer-info__link">Returns policy</a>
+                
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__mailing">
+          <p class="footer__mailing-title">
+            Join our mailing list
+          </p>
+          <form class="footer__mailing-form" action="#" method="post">
+            <input class="footer__mailing-input" type="email" placeholder="your@email.com">
+            <button class="footer__mailing-button" type="submit">Sign up</button>
+        </form>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p class="footer__copyright-text">
+          Copyright 2022 Avion LTD
+        </p>
+        <div class="social">
+          <a class="social__link off-link" href="#">
+            <img class="social__link-img" src="images/icons/logo--linkedin.svg" alt="logo linkedin">
+            
+          </a>
+          <a class="social__link off-link" href="#">
+            <img class="social__link-img" src="images/icons/logo--facebook.svg" alt="logo facebook">
+            
+          </a>
+          <a class="social__link off-link" href="#">
+            <img class="social__link-img" src="images/icons/logo--instagram.svg" alt="logo instagram">
+            
+          </a>
+          <a class="social__link off-link" href="#">
+            <img class="social__link-img" src="images/icons/logo--skype.svg" alt="logo skype">
+            
+          </a>
+          <a class="social__link off-link" href="#">
+            <img class="social__link-img" src="images/icons/logo--twitter.svg" alt="logo twitter">
+            
+          </a>
+          <a class="social__link off-link" href="#">
+            <img class="social__link-img" src="images/icons/logo--pinterest.svg" alt="logo pinterest">
+            
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- -->
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+/* ПОДКЛЮЧЕНИЕ ШРИФТОВ */
+@font-face {
+  font-family: "ClashDisplay-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: local("ClashDisplay-Regular"), url("../fonts/ClashDisplay-Regular.woff2") format("woff2"), url("../fonts/ClashDisplay-Regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Satoshi-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Satoshi-Regular"), url("../fonts/Satoshi-Regular.woff2") format("woff2"), url("../fonts/Satoshi-Regular.woff") format("woff");
+  font-display: swap;
+}

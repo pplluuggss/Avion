@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping baskets</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/fonts.css">
+  <link rel="stylesheet" href="./style/global.css">
+  <link rel="stylesheet" href="./style/media.css">
+  <link rel="stylesheet" href="./style/reset.css">
+</head>
+
+<body>
+  <!-- шапка -->
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <button class="search__btn" type="submit">
+          <img src="images/icons/search.svg" alt="site search">
+        </button>
+        <a class="logo" href="index.html">
+          <img class="logo__img" src="images/icons/logo.png" alt="logo site">
+        </a>
+        <div class="actions">
+          <a class="actions__shopping-cart" href="shopping_baskets.html">
+            <img src="images/icons/shopping--cart.svg" alt="shopping cart">
+          </a>
+          <button class="actions__account-btn" type="submit">
+            <img src="images/icons/user--avatar.svg" alt="account">
+          </button>
+        </div>
+        <button class="burger-menu">
+          <span></span>
+        </button>
+      </div>
+      <nav class="header__nav navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item off-link">
+            <a class="navigation__link" href="#">Plant pots</a>
+            
+          </li>
+          <li class="navigation__item off-link">
+            <a class="navigation__link" href="#">Ceramics</a>
+            
+          </li>
+          <li class="navigation__item off-link">
+            <a class="navigation__link" href="#">Tables</a>
+            
+          </li>
+          <li class="navigation__item off-link">
+            <a class="navigation__link" href="#">Chairs</a>
+            
+          </li>
+          <li class="navigation__item off-link">
+            <a class="navigation__link" href="#">Crockery</a>
+            
+          </li>
+          <li class="navigation__item off-link">
+            <a class="navigation__link" href="#">Tableware</a>
+            
+          </li>
+          <li class="navigation__item off-link">
+            <a class="navigation__link" href="#">Cutlery</a>
+            
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- -->
+  <!-- контент -->
+  <div class="wrapper">
+    <main class="main">
+
+      <section class="shopping-baskets">
+        <div class="container">
+          <div class="shopping-baskets__box">
+            <div class="shopping-baskets__position">
+              <p class="shopping-baskets__position-name">
+                Product
+              </p>
+              <div class="shopping-baskets__position-box">
+                <p class="shopping-baskets__position-name">
+                  Quantity
+                </p>
+                <p class="shopping-baskets__position-name">
+                  Total
+                </p>
+              </div>
+            </div>
+            <div class="shopping-baskets__inner">
+              <div class="shopping-baskets__box-item">
+                <div class="shopping-baskets__item">
+                  <a class="shopping-baskets__link" href="#" >
+                    <img class="shopping-baskets__img" src="images/content/foto-17.jpg" alt="foto Graystone vase">
+                  </a>
+                  <div class="shopping-baskets__descr">
+                    <a class="shopping-baskets__link" href="#" >
+                      <h4 class="shopping-baskets__subject subject">
+                        Graystone vase
+                      </h4>
+                    </a>
+                    <p class="shopping-baskets__text">
+                      A timeless ceramic vase with a tri color grey glaze
+                    </p>
+                    <span class="shopping-baskets__summ">
+                      £85
+                    </span>
+                  </div>
+                </div>
+                <div class="product-card__inner-box">
+                  <div class="quantity">
+                    <button class="quantity__decrement">-</button>
+                    <span class="quantity__count">1</span>
+                    <button class="quantity__increment">+</button>
+                  </div>
+                  <div class="product-card__price">
+                    £
+                    <span class="total">85</span>
+                  </div>
+                </div>
+              </div>
+              <div class="shopping-baskets__box-item">
+                <div class="shopping-baskets__item">
+                  <a class="shopping-baskets__link" href="#" >
+                    <img class="shopping-baskets__img" src="images/content/foto-18.jpg" alt="foto Basic white vase">
+                  </a>
+                  <div class="shopping-baskets__descr">
+                    <a class="shopping-baskets__link" href="#" >
+                      <h4 class="shopping-baskets__subject subject">
+                        Basic white vase
+                      </h4>
+                    </a>
+                    <p class="shopping-baskets__text">
+                      Beautiful and simple this is one for the classics
+                    </p>
+                    <span class="shopping-baskets__summ">
+                      £99
+                    </span>
+                  </div>
+                </div>
+                <div class="product-card__inner-box">
+                  <div class="quantity">
+                    <button class="quantity__decrement">-</button>
+                    <span class="quantity__count">1</span>
+                    <button class="quantity__increment">+</button>
+                  </div>
+                  <div class="product-card__price">
+                    £
+                    <span class="total">99</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="shopping-baskets__subtotal">
+              <h4 class="shopping-baskets__subtotal-title subject">
+                Subtotal
+              </h4>
+              <span class="shopping-baskets__subtotal-summ headline">
+                £184
+              </span>
+            </div>
+            <div class="shopping-baskets__box-btn">
+              <button class="shopping-baskets__btn">Go to checkout</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+    
+  </div>
+  <!-- -->
+  <!-- футер -->
+  <footer class="footer">
+    <div class="small-container">
+      <div class="footer__inner">
+        <div class="footer__links">
+          <div class="footer-menu">
+            <p class="footer-menu__title">
+              Menu
+            </p>
+            <ul class="footer-menu__list">
+              <li class="footer-menu__item off-link">
+                <a href="" class="footer-menu__link">New arrivals</a>
+                
+              </li>
+              <li class="footer-menu__item off-link">
+                <a href="" class="footer-menu__link">Best sellers</a>
+                
+              </li>
+              <li class="footer-menu__item off-link">
+                <a href="" class="footer-menu__link">Recently viewed</a>
+                
+              </li>
+              <li class="footer-menu__item off-link">
+                <a href="" class="footer-menu__link">Popular this week</a>
+                
+              </li>
+              <li class="footer-menu__item">
+                <a href="product.html" class="footer-menu__link">All products</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-categories">
+            <p class="footer-categories__title">
+              Categories
+            </p>
+            <ul class="footer-categories__list">
+              <li class="footer-categories__item off-link">
+                <a href="" class="footer-categories__link">Crockery</a>
+                
+              </li>
+              <li class="footer-categories__item off-link">
+                <a href="" class="footer-categories__link">Furniture</a>
+                
+              </li>
+              <li class="footer-categories__item off-link">
+                <a href="" class="footer-categories__link">Homeware</a>
+                
+              </li>
+              <li class="footer-categories__item off-link">
+                <a href="" class="footer-categories__link">Plant pots</a>
+                
+              </li>
+              <li class="footer-categories__item off-link">
+                <a href="" class="footer-categories__link">Chairs</a>
+                
+              </li>
+              <li class="footer-categories__item off-link">
+                <a href="" class="footer-categories__link">Crockery</a>
+                
+              </li>
+            </ul>
+          </div>
+          <div class="footer-info">
+            <p class="footer-info__title">
+              Our company
+            </p>
+            <ul class="footer-info__list">
+              <li class="footer-info__item">
+                <a href="about.html" class="footer-info__link">About us</a>
+              </li>
+              <li class="footer-info__item off-link">
+                <a href="" class="footer-info__link">Vacancies</a>
+                
+              </li>
+              <li class="footer-info__item off-link">
+                <a href="" class="footer-info__link">Contact us</a>
+                
+              </li>
+              <li class="footer-info__item off-link">
+                <a href="" class="footer-info__link">Privacy</a>
+                
+              </li>
+              <li class="footer-info__item off-link">
+                <a href="" class="footer-info__link">Returns policy</a>
+                
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__mailing">
+          <p class="footer__mailing-title">
+            Join our mailing list
+          </p>
+          <form class="footer__mailing-form" action="#" method="post">
+            <input class="footer__mailing-input" type="email" placeholder="your@email.com">
+            <button class="footer__mailing-button" type="submit">Sign up</button>
+        </form>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p class="footer__copyright-text">
+          Copyright 2022 Avion LTD
+        </p>
+        <div class="social">
+          <a class="social__link off-link" href="#">
+            <img class="social__link-img" src="images/icons/logo--linkedin.svg" alt="logo linkedin">
+            
+          </a>
+          <a class="social__link off-link" href="#">
+            <img class="social__link-img" src="images/icons/logo--facebook.svg" alt="logo facebook">
+            
+          </a>
+          <a class="social__link off-link" href="#">
+            <img class="social__link-img" src="images/icons/logo--instagram.svg" alt="logo instagram">
+            
+          </a>
+          <a class="social__link off-link" href="#">
+            <img class="social__link-img" src="images/icons/logo--skype.svg" alt="logo skype">
+            
+          </a>
+          <a class="social__link off-link" href="#">
+            <img class="social__link-img" src="images/icons/logo--twitter.svg" alt="logo twitter">
+            
+          </a>
+          <a class="social__link off-link" href="#">
+            <img class="social__link-img" src="images/icons/logo--pinterest.svg" alt="logo pinterest">
+            
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- -->
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
